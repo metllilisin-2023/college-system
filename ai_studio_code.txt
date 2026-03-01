@@ -1,0 +1,11 @@
+/college-system-desktop
+├── /src-tauri              # إعدادات Tauri (Rust Core)
+├── /src                    # كود الواجهة (React + TS)
+│   ├── /api                # خدمات Gemini و PDF
+│   ├── /components         # المكونات الرسومية
+│   ├── /hooks              # الخطافات المخصصة
+│   ├── /lib                # إعدادات SQLite والبيانات الأولية
+│   ├── /store              # إدارة الحالة (Zustand)
+│   ├── /types              # تعريفات الأنواع (Interfaces)
+│   └── /utils              # أدوات المساعدة
+└── index.html              # نقطة الدخول الرئيسية
